@@ -1,0 +1,19 @@
+html, body {margin:0; padding:0;}
+
+.conteiner0{
+	display: grid;
+	height:1000px;
+    grid-template-columns: 1fr 5fr 1fr ;
+	background-color: red;		
+}
+.side{background-color: green;}
+.conteiner1{
+	display: grid;
+	width:100%;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: 200px;	
+}
+.box {
+	height:200px; 
+	width:200px; 
+	background-color: blue;}
